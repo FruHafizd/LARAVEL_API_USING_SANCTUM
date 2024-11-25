@@ -18,7 +18,7 @@ class ProductController extends Controller
                 'status' => true,
                 'message' => 'Data Found',
                 'data' => $data
-            ]
+            ], 200
         );
     }
 
